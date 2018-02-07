@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RemotEV3</string>
+    <string name="action_settings">Settings</string>
+    <string name="settings_left_motor">Left Motor</string>
+    <string name="settings_right_motor">Right Motor</string>
+    <string name="settings_reverse">Reverse</string>
+    <string name="settings_bluetooth_device">Bluetooth Device</string>
+    <string name="settings_title">Controller Settings</string>
+    <string name="settings_ok">OK</string>
+    <string name="settings_cancel">Cancel</string>
+    <string name="left_motor_label">Left Motor:</string>
+    <string name="right_motor_label">Right Motor:</string>
+    <string name="settings_use_orientation">Use Orientation Sensor</string>
+    <string name="settings_slider_1">Slider 1</string>
+    <string name="settings_slider_2">Slider 2</string>
+    <string name="settings_sticky">Sticky</string>
+    <string name="rating_remind_later">Remind me later</string>
+    <string name="rating_already_rated">Already rated</string>
+    <string name="rating_rate_this_app">Rate this app!</string>
+    <string name="rating_message">"If you enjoy using %s, please take a moment to rate it. Thank you!"</string>
+    <string name="rating_rate">"Rate %s"</string>
+
+</resources>

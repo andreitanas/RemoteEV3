@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dip"
+        android:orientation="vertical">
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:padding="4dip">
+        <TextView android:id="@+id/rating_message"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="10dip"
+                  android:text="@string/rating_message"
+                />
+        <Button android:id="@+id/rating_rate"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="4dip"
+                android:textAllCaps="false"
+                android:text="@string/rating_rate"/>
+        <Button android:id="@+id/rating_remind"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="4dip"
+                android:textAllCaps="false"
+                android:text="@string/rating_remind_later"/>
+        <Button android:id="@+id/rating_already_rated"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAllCaps="false"
+                android:text="@string/rating_already_rated"/>
+    </LinearLayout>
+</LinearLayout>

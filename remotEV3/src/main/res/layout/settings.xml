@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp">
+
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:stretchColumns="1" >
+
+        <TableRow android:layout_height="wrap_content" >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_bluetooth_device" >
+            </TextView>
+            <Spinner
+                    android:id="@+id/serial_dropdown"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2">
+            </Spinner>
+        </TableRow>
+
+        <TableRow android:layout_height="wrap_content" >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_left_motor" >
+            </TextView>
+            <Spinner
+                    android:id="@+id/left_motor_dropdown"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/motor_channels"
+                    android:paddingRight="20dp">
+            </Spinner>
+            <CheckBox
+                    android:id="@+id/left_motor_reverse"
+                    android:text="@string/settings_reverse"
+                    android:layout_marginRight="10dp">
+            </CheckBox>
+        </TableRow>
+
+        <TableRow android:layout_height="wrap_content" >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_right_motor" >
+            </TextView>
+            <Spinner
+                    android:id="@+id/right_motor_dropdown"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/motor_channels"
+                    android:paddingRight="20dp">
+            </Spinner>
+            <CheckBox
+                    android:id="@+id/right_motor_reverse"
+                    android:text="@string/settings_reverse"
+                    android:layout_marginRight="10dp">
+            </CheckBox>
+        </TableRow>
+
+        <TableRow android:layout_height="wrap_content">
+            <CheckBox
+                    android:layout_span="3"
+                    android:id="@+id/use_orientation_sensor"
+                    android:text="@string/settings_use_orientation"/>
+        </TableRow>
+
+        <TableRow android:layout_height="wrap_content" >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_slider_1" >
+            </TextView>
+            <Spinner
+                    android:id="@+id/slider_1_dropdown"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/motor_channels"
+                    android:paddingRight="20dp">
+            </Spinner>
+            <CheckBox
+                    android:id="@+id/slider_1_sticky"
+                    android:text="@string/settings_sticky"
+                    android:layout_marginRight="10dp">
+            </CheckBox>
+        </TableRow>
+
+        <TableRow android:layout_height="wrap_content" >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_slider_2" >
+            </TextView>
+            <Spinner
+                    android:id="@+id/slider_2_dropdown"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/motor_channels"
+                    android:paddingRight="20dp">
+            </Spinner>
+            <CheckBox
+                    android:id="@+id/slider_2_sticky"
+                    android:text="@string/settings_sticky"
+                    android:layout_marginRight="10dp">
+            </CheckBox>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

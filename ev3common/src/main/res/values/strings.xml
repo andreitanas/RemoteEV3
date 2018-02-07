@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ev3Common</string>
+    <string name="bluetooth_not_supported">Bluetooth not supported</string>
+    <string name="could_not_connect">Could not create Bluetooth connection</string>
+    <string name="connected">Connected</string>
+    <string name="bonded">Bonded</string>
+    <string name="unbond">Unbond</string>
+    <string name="connecting">Connecting</string>
+</resources>
