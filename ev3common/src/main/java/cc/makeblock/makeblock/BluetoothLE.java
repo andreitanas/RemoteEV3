@@ -424,7 +424,7 @@ public class BluetoothLE extends Service {
                 Log.e(TAG,"---->char permission:"+Utils.getCharPermission(permission));
 
                 int property = gattCharacteristic.getProperties();
-                Log.e(TAG,"---->char property:"+Utils.getCharPropertie(property));
+                Log.e(TAG,"---->char property:"+Utils.getCharProperty(property));
 
                 byte[] data = gattCharacteristic.getValue();
                 if (data != null && data.length > 0) {

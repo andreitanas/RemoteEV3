@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Ev3Controller.iml" filepath="$PROJECT_DIR$/Ev3Controller.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ev3common/ev3common.iml" filepath="$PROJECT_DIR$/ev3common/ev3common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/remotEV3/remotEV3.iml" filepath="$PROJECT_DIR$/remotEV3/remotEV3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RemoteEV3.iml" filepath="$PROJECT_DIR$/.idea/modules/RemoteEV3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ev3common/RemoteEV3.ev3common.iml" filepath="$PROJECT_DIR$/.idea/modules/ev3common/RemoteEV3.ev3common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/remotEV3/RemoteEV3.remotEV3.iml" filepath="$PROJECT_DIR$/.idea/modules/remotEV3/RemoteEV3.remotEV3.iml" />
     </modules>
   </component>
 </project>
