@@ -14,4 +14,4 @@ If you find any security vulnerability in any of the application code or depende
 or have any question regarding how the app protects your privacy, please send me an email.
 
 Andrei Tanas
-andre@tanas.ca
+andrei@tanas.ca
